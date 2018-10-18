@@ -1,5 +1,5 @@
 ﻿component {
-	public SeleniumWebDriver function init( requried string driverType, required string webdriver ) {
+	public SeleniumWebDriver function init( required string driverType, required string webdriver ) {
 		setDriverByType( driverType, webdriver );
 
 		return this;
